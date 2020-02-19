@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.javastreets</groupId>
-	<artifactId>mule-maven-deployment-demo</artifactId>
-	<version>0.0.5-SNAPSHOT</version>
-	<packaging>mule</packaging>
-	<name>Mule mule-maven-deployment-demo Application</name>
-	
 
-	<parent>
-		<groupId>com.javastreets</groupId>
-		<artifactId>mule-maven-parent-pom</artifactId>
-		<version>0.0.5-SNAPSHOT</version>
-		<relativePath>../mule-maven-parent-pom/pom.xml</relativePath>
-	</parent>
-
+	<groupId>com.mycompany</groupId>
+	<artifactId>openbanking-api-application</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>mule-application</packaging>
+	<name>openbanking-api-application</name>
 	<properties>
-		<mule.version>3.9.0</mule.version>
-		<mule.tools.version>1.7</mule.tools.version>
-	</properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<app.runtime>4.1.1</app.runtime>
+		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
+		<maven.deploy.plugin.version>2.8.1</maven.deploy.plugin.version>
+		<munit.version>2.2.1</munit.version>
+    </properties>
 
 
 <build>
